@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{943a5e49-6dc3-4b00-9f6d-2610ce63667d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects-Generic">
+      <UniqueIdentifier>{d508ee08-1648-4855-8740-db2e086ef1a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects-Specific">
+      <UniqueIdentifier>{392b3a1f-71db-4e61-adbf-7fbd1e70be8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{e099c117-1ed5-487a-83b2-c616e74c7fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{18e4dd16-e646-4690-92ff-d680b346d392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{15eaca6a-2f46-4c79-85ea-3bdce38f3f89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Engine\App.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Buffers.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Callbacks.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Devices.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\frame.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GraphicalObject.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GraphicsEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Debug.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\FileUtil.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Spatial.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects-Specific\bouncingRectangle.cpp">
+      <Filter>Objects-Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects-Generic\BaseObject.cpp">
+      <Filter>Objects-Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SwapChain.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\CollisionBody.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects-Specific\collidingRectangle.cpp">
+      <Filter>Objects-Specific</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\App.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GraphicalObject.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GraphicsEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\FileUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Spatial.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="shaders\ShaderStructs.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects-Specific\bouncingRectangle.h">
+      <Filter>Objects-Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects-Specific\ObjectClasses-Specific.h">
+      <Filter>Objects-Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects-Generic\BaseObject.h">
+      <Filter>Objects-Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects-Generic\ObjectClasses-Generic.h">
+      <Filter>Objects-Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\CollisionBody.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects-Specific\collidingRectangle.h">
+      <Filter>Objects-Specific</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\frag.spv">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\shader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\shader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\vert.spv">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\baseShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\baseShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\baseFrag.spv">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\baseVert.spv">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
