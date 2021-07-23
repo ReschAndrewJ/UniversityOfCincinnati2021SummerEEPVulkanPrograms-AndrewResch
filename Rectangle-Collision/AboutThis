@@ -1,0 +1,4 @@
+Program #7
+
+Creates two rectangles which bounce off the sides of the window and each other
+Uses the Seperating Axis Theorem for collision detection, and dot product for collision resolution 
