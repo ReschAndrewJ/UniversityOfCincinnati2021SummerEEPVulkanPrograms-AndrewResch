@@ -1,2 +1,6 @@
-#8 PongRecreation
+Program #8
+
+A Rough Recreation Of Pong.
+
+Combines individual concepts from earlier programs. Features device memory suballocation management with buffer offsets.
 
